@@ -1,0 +1,17 @@
+{
+    "id": 1,
+    "marca": "Toyota",
+    "modelo": "Corolla",
+    "anio": 2022,
+    "color": "Gris",
+    "precio": 25000,
+    "transmision": "Automatica",
+    "motor": "2.0L Inline-4",
+    "potencia": "169 hp",
+    "torque": "151 lb-ft",
+    "combustible": "Gasolina",
+    "consumo_ciudad": "29 mpg",
+    "consumo_carretera": "37 mpg",
+    "sistema_seguridad": ["Sistema de frenos antibloqueo (ABS)", "Control de estabilidad", "Cámara de visión trasera"]
+  }
+  

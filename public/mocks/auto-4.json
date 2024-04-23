@@ -1,0 +1,17 @@
+{
+    "id": 4,
+    "marca": "Chevrolet",
+    "modelo": "Camaro",
+    "anio": 2020,
+    "color": "Negro",
+    "precio": 38000,
+    "transmision": "Manual",
+    "motor": "6.2L V8",
+    "potencia": "455 hp",
+    "torque": "455 lb-ft",
+    "combustible": "Gasolina",
+    "consumo_ciudad": "16 mpg",
+    "consumo_carretera": "24 mpg",
+    "sistema_seguridad": ["Sistema de frenos de disco antibloqueo", "Control electrónico de estabilidad", "Sistema de monitoreo de punto ciego"]
+  }
+  
