@@ -1,0 +1,17 @@
+{
+    "id": 6,
+    "marca": "BMW",
+    "modelo": "Serie 3",
+    "anio": 2023,
+    "color": "Plata",
+    "precio": 45000,
+    "transmision": "Automatica",
+    "motor": "2.0L Turbocharged Inline-4",
+    "potencia": "255 hp",
+    "torque": "295 lb-ft",
+    "combustible": "Gasolina",
+    "consumo_ciudad": "26 mpg",
+    "consumo_carretera": "36 mpg",
+    "sistema_seguridad": ["Frenos antibloqueo (ABS)", "Control de tracción dinámico", "Asistente de estacionamiento"]
+  }
+  
