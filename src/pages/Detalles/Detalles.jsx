@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 // Componentes
 
-const Detalles = ({idAutoBuscado}) => {
+const Detalles = () => {
 
     // UseState
 
