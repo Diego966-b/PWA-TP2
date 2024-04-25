@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# TP 2 PWA
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Logo de la App](./src/assets/logo.png)
 
-## Available Scripts
+Es una aplicacion desarrollada en React donde fue diseañada una home page
+que va a mostrar varias cards con informacion de autos, las cuales pueden ser
+seleccionadas para ser mostradas mas al detalle en otra pagina.
 
-In the project directory, you can run:
+Fue diseñado como Trabajo practico numero 2 de la materia
+"Programacion Web Avanzada" de la carrera universitaria en
+desarrollo web, en la facultad nacional del comahue (UNCO).
 
-### `npm start`
+## Archivo index.js
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Este será el fichero JS de entrada a nuestra aplicación React. Será el único en el que carguemos ReactDOM y se encarga de acceder a un nodo del DOM (el div que antes identificamos como root) e importar y pintar el componente principal de la aplicación, en este caso, llamado App.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Archivo app.js
 
-### `npm test`
+Este es el componente principal de tu aplicación React. Aquí se define la estructura principal de la interfaz de usuario. Puedes organizar tu aplicación en otros componentes de React y colocarlos dentro de App.js. Este archivo puede contener lógica relacionada con el estado de la aplicación, manejar eventos y acciones de alto nivel.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Archivo package-json.js
 
-### `npm run build`
+La importancia del package.json en React radica en el hecho de que todos los componentes que instalemos o queremos instalar para usar en nuestro proyecto se guardan en el package.json y, al mismo tiempo, se instalan en la carpeta node_modules.
+De modo que la carpeta node_modules sabe todo lo que debe instalar, debido a que esa información se encuentra almacenada en el package.json en React Native.
+El package.json en React le indica a npm cuál es el script que debe usar para lanzar el servidor de node.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Instalación
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clona el repositorio:
+    - Copia la direccion del codigo de github.
+    - Luego usa este comando en la terminal de tu IDE: git clone "link".
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Captura de git clone](./src/assets/captura1.png)
 
-### `npm run eject`
+2. Entrar a la direccion desde la terminal.
+    - Utiliza el comando "cd" hasta entrar a la app.
+    - cd pwatp1.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Por ultimo instalar las dependencias.
+    - Utiliza el comando "npm install" para que se instalen las dependencias.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Para iniciar la aplicacion.
+    - El comando: npm start.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Captura de npm start](./src/assets/captura2.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5. Para cerrar la app.
+    - Toca la tecla ctrl + c.
+    - Y luego la tecla "s".
 
-## Learn More
+![Captura de cerrar app](./src/assets/captura3.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Miembros del Grupo
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Fausto Ignacio Biló - FAI 3616.
+- Diego Benjamin - FAI 3002.
 
-### Code Splitting
+## Contacto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+faustobilo47@gmail.com
+diego.benjamin@est.fi.uncoma.edu.ar
