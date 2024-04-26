@@ -33,7 +33,7 @@ const Home = () => {
 
     return (
         <div>
-            <Cabecera></Cabecera>
+            <Cabecera texto={"Esto es la cabecera"}></Cabecera>
             {colAutos.map ((auto) => {
                 return (
                     <div key={auto.id}>
@@ -41,7 +41,7 @@ const Home = () => {
                     </div>
                 );
             })}
-            <Pie></Pie>
+            <Pie text={"esto es el footer"}></Pie>
         </div>
     );
 }
