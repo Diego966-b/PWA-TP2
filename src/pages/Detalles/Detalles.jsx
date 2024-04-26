@@ -1,37 +1,29 @@
 // React
 import { useState, useEffect } from "react";
 // Componentes
+import Cabecera from "../../components/Cabecera/Cabecera";
+import {ROUTES} from "../../consts/rutas";
+import {Routes, Route, useParams, useNavigate} from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
+
 
 
 const Detalles = () => {
 
-    // UseState
+    const navigate = useNavigate();
+    const location = useLocation();
+    const idauto = new URLSearchParams(location.search).get('idauto');
 
-    const [auto, setAuto] = useState([]);
-
-    /**
-     * Recupera la informacion del auto buscado.
-     */
-    const fetchAutoBuscado = async () => {
-        const rutaAuto = "/mocks/auto-${idAutoBuscado}.json";
-        const respuesta = await fetch(rutaAuto);
-        const resultado = await respuesta.json();
-        setAuto(resultado);
+    const onClickHomeHandler = () => {
+        console.log(ROUTES);
+        navigate(ROUTES.home);
     };
-
-    /**
-     * Use Effect para recuperar los datos del auto buscado.
-     * Se ejecutara cada vez que carga la pag. por primera vez.
-     */
-    useEffect(() => {
-        fetchAutoBuscado();
-    }, []);
-
 
     return (
         <div>
+            <Cabecera onClickHomeHandler={onClickHomeHandler}></Cabecera>
             <p>Hola!</p>
         </div>
     );
 }
-export default Home;
+export default Detalles;
