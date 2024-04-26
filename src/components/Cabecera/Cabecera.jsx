@@ -2,7 +2,6 @@ import Button from "../Button/Button";
 
 
 const Cabecera = ({onClickHomeHandler}) => {
-    console.log(onClickHomeHandler);
     return (
         <header className={"bg-gray-950 text-white p-4 rounded-b-lg flex items-center justify-between"}>
             <h1>Autos</h1>

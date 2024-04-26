@@ -34,13 +34,15 @@ const Home = () => {
     }, []);
 
     const onClickHomeHandler = () => {
-        navigate(ROUTES.Home);
+        navigate(ROUTES.home);
     };
 
     const onClickDetallesHandler = (idauto) => {
         console.log(idauto)
         navigate(ROUTES.detalles + "?" + "idauto=" + idauto);
        // navigate('/Detalles/${idauto}'); // Navegar a la nueva ruta con el parámetro
+       // navigate(ROUTES.detalles + "?" + "idauto=" + idauto, { state: { key: {onClickHomeHandler} } });
+
     }
 
     return (
