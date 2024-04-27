@@ -10,8 +10,8 @@
     "potencia": "169 hp",
     "torque": "151 lb-ft",
     "combustible": "Gasolina",
-    "consumo_ciudad": "29 mpg",
-    "consumo_carretera": "37 mpg",
-    "sistema_seguridad": ["Sistema de frenos antibloqueo (ABS)", "Control de estabilidad", "Cámara de visión trasera"]
+    "consumoCiudad": "29 mpg",
+    "consumoCarretera": "37 mpg",
+    "sistemaSeguridad": ["Sistema de frenos antibloqueo (ABS)", "Control de estabilidad", "Cámara de visión trasera"]
   }
   

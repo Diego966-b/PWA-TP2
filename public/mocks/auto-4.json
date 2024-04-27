@@ -10,8 +10,8 @@
     "potencia": "455 hp",
     "torque": "455 lb-ft",
     "combustible": "Gasolina",
-    "consumo_ciudad": "16 mpg",
-    "consumo_carretera": "24 mpg",
-    "sistema_seguridad": ["Sistema de frenos de disco antibloqueo", "Control electrónico de estabilidad", "Sistema de monitoreo de punto ciego"]
+    "consumoCiudad": "16 mpg",
+    "consumoCarretera": "24 mpg",
+    "sistemaSeguridad": ["Sistema de frenos de disco antibloqueo", "Control electrónico de estabilidad", "Sistema de monitoreo de punto ciego"]
   }
   

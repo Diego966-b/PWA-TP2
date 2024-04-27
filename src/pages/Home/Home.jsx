@@ -1,14 +1,11 @@
 // React
 import { useState, useEffect } from "react";
-// Componentes
-import AutoSimple from "../../components/AutoSimple/AutoSimple.jsx"
 // Estructura
 import Pie from "../../components/Pie/Pie.jsx";
 import Cabecera from "../../components/Cabecera/Cabecera.jsx";
-import button from "../../components/Button/Button";
 import { useNavigate } from "react-router-dom";
 import {ROUTES} from "../../consts/rutas";
-import Button from "../../components/Button/Button";
+import ListarAutos from "../../components/ListarAutos/ListarAutos.jsx";
 
 const Home = () => {
 
@@ -32,32 +29,24 @@ const Home = () => {
     useEffect(() => {
         fetchAutos();
     }, []);
-
+    
+    /*
     const onClickHomeHandler = () => {
         navigate(ROUTES.home);
     };
+    */
 
-    const onClickDetallesHandler = (idauto) => {
-        console.log(idauto)
-        navigate(ROUTES.detalles + "?" + "idauto=" + idauto);
-       // navigate('/Detalles/${idauto}'); // Navegar a la nueva ruta con el parámetro
-       // navigate(ROUTES.detalles + "?" + "idauto=" + idauto, { state: { key: {onClickHomeHandler} } });
-
+    const onClickDetallesHandler = (idAuto) => {
+        navigate(ROUTES.detalles + "?" + "idAuto=" + idAuto);
     }
+
+    console.log("renderizo");
 
     return (
         <div>
-            <Cabecera texto={"Esto es la cabecera"} onClickHomeHandler={onClickHomeHandler}></Cabecera>
-            {colAutos.map ((auto) => {
-                return (
-                    <div key={auto.id}>
-                        <p>{auto.id}</p>
-                        <AutoSimple auto={auto}></AutoSimple>
-                        <Button text={"Detalles"} onClick={() => onClickDetallesHandler(auto.id)}></Button>
-                    </div>
-                );
-            })}
-            <Pie text={"esto es el footer"}></Pie>
+            <Cabecera/>
+            <ListarAutos colAutos={colAutos} onClick={onClickDetallesHandler}/>
+            <Pie/>
         </div>
     );
 }

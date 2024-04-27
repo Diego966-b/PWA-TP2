@@ -10,8 +10,8 @@
     "potencia": "450 hp",
     "torque": "410 lb-ft",
     "combustible": "Gasolina",
-    "consumo_ciudad": "16 mpg",
-    "consumo_carretera": "25 mpg",
-    "sistema_seguridad": ["Sistema de frenos de disco en las cuatro ruedas", "Control de tracción electrónico", "Sistema de monitoreo de presión de neumáticos"]
+    "consumoCiudad": "16 mpg",
+    "consumoCarretera": "25 mpg",
+    "sistemaSeguridad": ["Sistema de frenos de disco en las cuatro ruedas", "Control de tracción electrónico", "Sistema de monitoreo de presión de neumáticos"]
   }
   

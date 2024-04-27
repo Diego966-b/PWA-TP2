@@ -10,8 +10,8 @@
     "potencia": "180 hp",
     "torque": "177 lb-ft",
     "combustible": "Gasolina",
-    "consumo_ciudad": "32 mpg",
-    "consumo_carretera": "42 mpg",
-    "sistema_seguridad": ["Sistema de asistencia de frenado", "Control de tracción", "Sistema de mitigación de colisión frontal"]
+    "consumoCiudad": "32 mpg",
+    "consumoCarretera": "42 mpg",
+    "sistemaSeguridad": ["Sistema de asistencia de frenado", "Control de tracción", "Sistema de mitigación de colisión frontal"]
   }
   

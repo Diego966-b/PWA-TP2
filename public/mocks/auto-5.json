@@ -10,8 +10,8 @@
     "potencia": "147 hp",
     "torque": "184 lb-ft",
     "combustible": "Gasolina",
-    "consumo_ciudad": "29 mpg",
-    "consumo_carretera": "35 mpg",
-    "sistema_seguridad": ["Frenos de disco en las cuatro ruedas", "Control de tracción electrónico", "Sistema de asistencia de frenado"]
+    "consumoCiudad": "29 mpg",
+    "consumoCarretera": "35 mpg",
+    "sistemaSeguridad": ["Frenos de disco en las cuatro ruedas", "Control de tracción electrónico", "Sistema de asistencia de frenado"]
   }
   

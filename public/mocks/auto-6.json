@@ -10,8 +10,8 @@
     "potencia": "255 hp",
     "torque": "295 lb-ft",
     "combustible": "Gasolina",
-    "consumo_ciudad": "26 mpg",
-    "consumo_carretera": "36 mpg",
-    "sistema_seguridad": ["Frenos antibloqueo (ABS)", "Control de tracción dinámico", "Asistente de estacionamiento"]
+    "consumoCiudad": "26 mpg",
+    "consumoCarretera": "36 mpg",
+    "sistemaSeguridad": ["Frenos antibloqueo (ABS)", "Control de tracción dinámico", "Asistente de estacionamiento"]
   }
   
