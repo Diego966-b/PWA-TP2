@@ -1,15 +1,17 @@
-// React
+// React, react-router-dom
 import { useState, useEffect } from "react";
-// Componentes
+import { useLocation } from 'react-router-dom';
+// Estructura
 import Cabecera from "../../components/Cabecera/Cabecera";
 import Pie from "../../components/Pie/Pie";
-import { useLocation } from 'react-router-dom';
+// Componentes
+import AutoDetallado from "../../components/AutoDetallado/AutoDetallado";
 
 const Detalles = () => {
-    const location = useLocation();
-    const idAuto = new URLSearchParams(location.search).get('idAuto');
 
     const [auto, setAuto] = useState([]);
+    const location = useLocation();
+    const idAuto = new URLSearchParams(location.search).get('idAuto');
 
     const fetchAuto = async () => {
         const respuesta = await fetch(`/mocks/auto-${idAuto}.json`);
@@ -20,26 +22,11 @@ const Detalles = () => {
     useEffect(() => {
         fetchAuto();
     }, []);
-
+    
     return (
-        <div>
+        <div className="w-full min-h-screen">
             <Cabecera/>
-                <h1>Detalles del auto seleccionado</h1>
-                <div>
-                    <p>idAuto:{auto.id}</p>
-                    <p>marca:{auto.marca}</p>
-                    <p>modelo:{auto.modelo}</p>
-                    <p>anio:{auto.anio}</p>
-                    <p>color:{auto.color}</p>
-                    <p>precio:{auto.precio}</p>
-                    <p>transmision:{auto.transmision}</p>
-                    <p>potencia:{auto.potencia}</p>
-                    <p>torque:{auto.torque}</p>
-                    <p>combustible:{auto.combustible}</p>
-                    <p>consumoCiudad:{auto.consumoCiudad}</p>
-                    <p>consumoCarretera:{auto.consumoCarretera}</p>
-                    <p>sistemaSeguridad:{auto.sistemaSeguridad}</p>
-                </div>
+            <AutoDetallado auto={auto}/>
             <Pie/>
         </div>
     );

@@ -12,6 +12,10 @@
     "combustible": "Gasolina",
     "consumoCiudad": "16 mpg",
     "consumoCarretera": "24 mpg",
-    "sistemaSeguridad": ["Sistema de frenos de disco antibloqueo", "Control electrónico de estabilidad", "Sistema de monitoreo de punto ciego"]
+    "sistemaSeguridad": [
+        {"id": 1, "nombre": "Sistema de frenos de disco antibloqueo"},
+        {"id": 2, "nombre": "Control electrónico de estabilidad"},
+        {"id": 3, "nombre": "Sistema de monitoreo de punto ciego"}
+    ]
   }
   

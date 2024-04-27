@@ -12,6 +12,10 @@
     "combustible": "Gasolina",
     "consumoCiudad": "16 mpg",
     "consumoCarretera": "25 mpg",
-    "sistemaSeguridad": ["Sistema de frenos de disco en las cuatro ruedas", "Control de tracción electrónico", "Sistema de monitoreo de presión de neumáticos"]
+    "sistemaSeguridad": [
+        {"id": 1, "nombre": "Sistema de frenos de disco en las cuatro ruedas"},
+        {"id": 2, "nombre": "Control de tracción electrónico"},
+        {"id": 3, "nombre": "Sistema de monitoreo de presión de neumáticos"}
+    ]
   }
   

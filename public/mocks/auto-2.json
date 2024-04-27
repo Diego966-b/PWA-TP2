@@ -12,6 +12,10 @@
     "combustible": "Gasolina",
     "consumoCiudad": "32 mpg",
     "consumoCarretera": "42 mpg",
-    "sistemaSeguridad": ["Sistema de asistencia de frenado", "Control de tracción", "Sistema de mitigación de colisión frontal"]
+    "sistemaSeguridad": [
+        {"id": 1, "nombre": "Sistema de asistencia de frenado"},
+        {"id": 2, "nombre": "Control de tracción"},
+        {"id": 3, "nombre": "Sistema de mitigación de colisión frontal"}
+    ]
   }
   

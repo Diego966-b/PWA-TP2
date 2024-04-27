@@ -1,4 +1,4 @@
-import styles from './Pie.module.css';
+//import styles from './Pie.module.css';
 
 const Pie = () => {
 

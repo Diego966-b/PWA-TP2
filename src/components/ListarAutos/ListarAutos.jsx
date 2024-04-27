@@ -1,11 +1,10 @@
 import Button from "../Button/Button";
-
 const ListarAutos = ({ colAutos, onClick }) => {
     return (
         <div>
             {colAutos.map ((auto) => {
                 return (
-                    <div key={auto.id}>
+                    <div className='' key={auto.id}>
                         <p>{auto.id}</p>
                         <p>{auto.marca}</p>
                         <p>{auto.modelo}</p>

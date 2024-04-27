@@ -12,6 +12,10 @@
     "combustible": "Gasolina",
     "consumoCiudad": "26 mpg",
     "consumoCarretera": "36 mpg",
-    "sistemaSeguridad": ["Frenos antibloqueo (ABS)", "Control de tracción dinámico", "Asistente de estacionamiento"]
+    "sistemaSeguridad": [
+        {"id": 1, "nombre": "Frenos antibloqueo (ABS)"},
+        {"id": 2, "nombre": "Control de tracción dinámico"},
+        {"id": 3, "nombre": "Asistente de estacionamiento"}
+    ]
   }
   
