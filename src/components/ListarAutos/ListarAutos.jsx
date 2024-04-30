@@ -5,7 +5,7 @@ const ListarAutos = ({ colAutos, onClick }) => {
             {colAutos.map ((auto) => {
                 return (
                     <div className='' key={auto.id}>
-                        <p>{auto.id}</p>
+
                         <p>{auto.marca}</p>
                         <p>{auto.modelo}</p>
                         <p>{auto.anio}</p>
