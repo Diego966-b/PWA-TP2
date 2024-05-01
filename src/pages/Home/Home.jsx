@@ -7,6 +7,9 @@ import Cabecera from "../../components/Cabecera/Cabecera.jsx";
 import {ROUTES} from "../../consts/rutas";
 // Componentes
 import ListarAutos from "../../components/ListarAutos/ListarAutos.jsx";
+//react-alice-carousel
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Carousel from "../../components/Carousel/Carousel";
 
 const Home = () => {
 
@@ -27,12 +30,19 @@ const Home = () => {
         navigate(`${ROUTES.detalles}?idAuto=${idAuto}`);
     }
 
-    console.log("renderizo");
+
     return (
         <div className="w-full min-h-screen">
-            <Cabecera/>
+            <div className="w-full min-h-screen flex">
+                <div className="flex-1 p-4">
+                    <Carousel/>
+                </div>
+                <div className="flex-1 p-4">
+                    <h1>Bienvenidos!</h1>
+                    <p> asddaasdaasda</p>
+                </div>
+            </div>
             <ListarAutos colAutos={colAutos} onClick={onClickDetallesHandler}/>
-            <Pie/>
         </div>
     );
 }

@@ -1,13 +1,17 @@
 import './App.css';
 import {router} from "./components/Router/Router";
 import { RouterProvider } from "react-router-dom";
+import Cabecera from "./components/Cabecera/Cabecera";
+import Pie from "./components/Pie/Pie";
 
 function App() {
   return (
     <div className="App">
-        <header className="App-header"> {/* ver!!! */}
+        <div className="w-full min-h-screen">
+            <Cabecera/>
             <RouterProvider router={router} />
-        </header>
+            <Pie/>
+        </div>
     </div>
   );
 }

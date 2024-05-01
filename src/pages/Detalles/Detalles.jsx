@@ -25,9 +25,7 @@ const Detalles = () => {
     
     return (
         <div className="w-full min-h-screen">
-            <Cabecera/>
             <AutoDetallado auto={auto}/>
-            <Pie/>
         </div>
     );
 }
