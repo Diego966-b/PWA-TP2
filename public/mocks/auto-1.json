@@ -16,5 +16,7 @@
         {"id": 1, "nombre": "Sistema de frenos antibloqueo (ABS)"},
         {"id": 2, "nombre": "Control de estabilidad"},
         {"id": 3, "nombre": "Cámara de visión trasera"}
-    ]
+    ],
+    "imgGrande": "",
+    "imgPequenia:":""
 }
