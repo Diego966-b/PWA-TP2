@@ -2,45 +2,38 @@
 
 ![Logo de la App](./src/assets/logo.png)
 
-Es una aplicacion desarrollada en React donde fue diseañada una home page
-que va a mostrar varias cards con informacion de autos, las cuales pueden ser
-seleccionadas para ser mostradas mas al detalle en otra pagina.
+Esta es una aplicacion desarrollada en React donde fue diseañada una home page
+que va a mostrar varias cards con informacion de autos (la cual es sacada de un archivo .json), 
+luego se puede seleccionar una para mostrar mas detalles del auto.
 
 Fue diseñado como Trabajo practico numero 2 de la materia
 "Programacion Web Avanzada" de la carrera universitaria en
 desarrollo web, en la facultad nacional del comahue (UNCO).
 
-## Archivo index.js
+## Home
 
-Este será el fichero JS de entrada a nuestra aplicación React. Será el único en el que carguemos ReactDOM y se encarga de acceder a un nodo del DOM (el div que antes identificamos como root) e importar y pintar el componente principal de la aplicación, en este caso, llamado App.
+AGREGAR FOTO HOME
 
-## Archivo app.js
+## Página de detalles
 
-Este es el componente principal de tu aplicación React. Aquí se define la estructura principal de la interfaz de usuario. Puedes organizar tu aplicación en otros componentes de React y colocarlos dentro de App.js. Este archivo puede contener lógica relacionada con el estado de la aplicación, manejar eventos y acciones de alto nivel.
-
-## Archivo package-json.js
-
-La importancia del package.json en React radica en el hecho de que todos los componentes que instalemos o queremos instalar para usar en nuestro proyecto se guardan en el package.json y, al mismo tiempo, se instalan en la carpeta node_modules.
-De modo que la carpeta node_modules sabe todo lo que debe instalar, debido a que esa información se encuentra almacenada en el package.json en React Native.
-El package.json en React le indica a npm cuál es el script que debe usar para lanzar el servidor de node.
+AGREGAR FOTO DETALLES
 
 ## Instalación
 
 1. Clona el repositorio:
-    - Copia la direccion del codigo de github.
-    - Luego usa este comando en la terminal de tu IDE: git clone "link".
+    - Copia la direccion del repositorio de github.
+    - Luego usa este comando en la terminal de tu IDE: ```git clone "link"```.
 
 ![Captura de git clone](./src/assets/captura1.png)
 
 2. Entrar a la direccion desde la terminal.
-    - Utiliza el comando "cd" hasta entrar a la app.
-    - cd pwatp1.
+    - Utiliza el comando "cd" hasta entrar a la app, luego escribe ```cd pwatp2```.
 
-3. Por ultimo instalar las dependencias.
-    - Utiliza el comando "npm install" para que se instalen las dependencias.
+3. Instalar las dependencias.
+    - Utiliza el comando ```npm install``` para que se instalen las dependencias requeridas del proyecto.
 
-4. Para iniciar la aplicacion.
-    - El comando: npm start.
+4. Iniciar la aplicacion.
+    - Para finalizar, ejecuta: ```npm start``` para  comenzar la aplicación.
 
 ![Captura de npm start](./src/assets/captura2.png)
 
