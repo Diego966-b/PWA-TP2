@@ -7,7 +7,6 @@ import Cabecera from "../../components/Cabecera/Cabecera";
 import AutoDetallado from "../../components/AutoDetallado/AutoDetallado";
 
 const Detalles = () => {
-
     const [auto, setAuto] = useState([]);
     const location = useLocation();
     const idAuto = new URLSearchParams(location.search).get('idAuto');

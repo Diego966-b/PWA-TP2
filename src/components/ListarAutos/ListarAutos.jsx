@@ -4,9 +4,12 @@ import { Card } from 'antd';
 
 const ListarAutos = ({ colAutos, textoBusqueda }) => {
     const resultado = filtrar({colAutos, textoBusqueda});
+    var mensaje = resultado.length === 0 ? ("No se encontraron elementos para su búsqueda") : ("");
     return (
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4 justify-items-center">
-            {resultado.map ((auto) => {
+            {mensaje ? (<p>{mensaje}</p>) : 
+            (<>
+                {resultado.map ((auto) => {
                 return (
                     <div key={auto.id} className="mb-4 place-content-center">
                         <Link to={`${ROUTES.detalles}?idAuto=${auto.id}`}>
@@ -32,12 +35,13 @@ const ListarAutos = ({ colAutos, textoBusqueda }) => {
                     </div>
                 );
             })}
+            </>)}
         </div>
     );
 }
 
 /**
- * Esta funcion filtra segun el input de la busqueda.
+ * Esta funcion filtra los autos mostrados segun el input de la busqueda.
  */
 function filtrar ({textoBusqueda, colAutos}) {
     if (textoBusqueda.trim() === '') {
