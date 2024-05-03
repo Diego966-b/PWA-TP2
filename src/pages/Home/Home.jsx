@@ -1,18 +1,14 @@
 // React, react-router-dom
 import { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
-import { ROUTES } from "../../consts/rutas";
 // Componentes
 import ListarAutos from "../../components/ListarAutos/ListarAutos.jsx";
 //react-alice-carousel
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Carousel from "../../components/Carousel/Carousel.jsx";
 import Busqueda from "../../components/Busqueda/Busqueda.jsx";
-
+import Cabecera from "../../components/Cabecera/Cabecera.jsx";
 
 const Home = () => {
 
-    const navigate = useNavigate();
     const [colAutos, setColAutos] = useState([]);
     const [valueBusqueda, setValueBusqueda] = useState("");
  
@@ -40,16 +36,19 @@ const Home = () => {
 
     return (
         <div className="w-full min-h-screen">
+            <Cabecera/>
             <div className="w-full min-h-screen flex">
                 <div className="flex-1 p-4">
                     <Carousel/>
                 </div>
                 <div className="flex-1 p-4">
                     <h1 className="font-bold">Bienvenidos!</h1>
-                    <p className="font-semibold"> ¡Bienvenido a WIKA, tu fuente confiable de información sobre automóviles! Esperamos poder satisfacer tu curiosidad.</p>
+                    <p className="font-semibold">¡Bienvenido a WIKA, tu fuente confiable de información sobre automóviles! Esperamos poder satisfacer tu curiosidad.</p>
                 </div>
             </div>
-            <Busqueda onChangeHandler={onChangeHandlerValueBusqueda}/>
+            <div className="m-5">
+                <Busqueda onChangeHandler={onChangeHandlerValueBusqueda}/>
+            </div>
             <div className="w-full min-h-screen">
                 <ListarAutos colAutos={colAutos} textoBusqueda={valueBusqueda}/>
             </div>

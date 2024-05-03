@@ -1,4 +1,5 @@
 import { ROUTES } from "../../consts/rutas";
+
 const AutoDetallado = ({auto}) => {
     return (
         <div className="bg-sky-950 mx-6">

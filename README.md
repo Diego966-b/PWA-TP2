@@ -2,7 +2,7 @@
 
 ![Logo de la App](./src/assets/logo.png)
 
-Esta es una aplicacion desarrollada en React donde fue diseañada una home page
+Esta es una aplicacion web desarrollada en React donde fue diseañada una home page
 que va a mostrar varias cards con informacion de autos (la cual es sacada de un archivo .json), 
 luego se puede seleccionar una para mostrar mas detalles del auto.
 
@@ -12,43 +12,38 @@ desarrollo web, en la facultad nacional del comahue (UNCO).
 
 ## Home
 
-AGREGAR FOTO HOME
+AGREGAR CAPTURA DE HOME
 
 ## Página de detalles
 
-AGREGAR FOTO DETALLES
+AGREGAR CAPTURA DE DETALLES
 
 ## Instalación
+1. Instala Node.js
+    - Si no tenes instalado node.js descargalo de este [link](https://nodejs.org/en/download).
 
 1. Clona el repositorio:
-    - Copia la direccion del repositorio de github.
-    - Luego usa este comando en la terminal de tu IDE: ```git clone "link"```.
+    - Usa este comando en la terminal de tu IDE: ```git clone https://github.com/Diego966-b/pwatp2.git```.
 
 ![Captura de git clone](./src/assets/captura1.png)
 
 2. Entrar a la direccion desde la terminal.
-    - Utiliza el comando "cd" hasta entrar a la app, luego escribe ```cd pwatp2```.
+    - Utiliza el comando "cd" hasta entrar a la carpeta que contiene al repositorio, luego escribe ```cd pwatp2```.
 
 3. Instalar las dependencias.
     - Utiliza el comando ```npm install``` para que se instalen las dependencias requeridas del proyecto.
 
 4. Iniciar la aplicacion.
-    - Para finalizar, ejecuta: ```npm start``` para  comenzar la aplicación.
+    - Utiliza el comando ```npm start``` para  comenzar la aplicación.
 
 ![Captura de npm start](./src/assets/captura2.png)
 
 5. Para cerrar la app.
-    - Toca la tecla ctrl + c.
-    - Y luego la tecla "s".
+    - Toca la tecla ctrl + c y luego la tecla "s".
 
 ![Captura de cerrar app](./src/assets/captura3.png)
 
 ## Miembros del Grupo
 
-- Fausto Ignacio Biló - FAI 3616.
-- Diego Benjamin - FAI 3002.
-
-## Contacto
-
-faustobilo47@gmail.com
-diego.benjamin@est.fi.uncoma.edu.ar
+- Fausto Ignacio Biló - FAI 3616 - faustobilo47@gmail.com.
+- Diego Benjamin - FAI 3002 - diego.benjamin@est.fi.uncoma.edu.ar.

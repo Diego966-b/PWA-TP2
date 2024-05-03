@@ -1,12 +1,14 @@
-//import TextField from '@mui/material/TextField';
-//import style from './Busqueda.module.css';
+import TextField from '@mui/material/TextField';
 
-const Busqueda = ({onChangeHandler}) => {
+const Busqueda = ({ onChangeHandler }) => {
     return (
-        <input className={"text-black"}
+        <TextField 
+            id="filled-basic" 
+            variant="filled" 
+            label="Busqueda por marca o modelo" 
+            className="text-white bg-white w-2/5 rounded-xl"
             onChange={onChangeHandler}
         />
     );
 }
-
 export default Busqueda;
