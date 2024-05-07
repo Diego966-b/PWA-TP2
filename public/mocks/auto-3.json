@@ -3,7 +3,7 @@
     "marca": "Ford",
     "modelo": "Mustang",
     "anio": 2021,
-    "color": "Rojo",
+    "color": "Blanco",
     "precio": 40000,
     "transmision": "Automatica",
     "motor": "5.0L V8",
@@ -16,6 +16,7 @@
         {"id": 1, "nombre": "Sistema de frenos de disco en las cuatro ruedas"},
         {"id": 2, "nombre": "Control de tracción electrónico"},
         {"id": 3, "nombre": "Sistema de monitoreo de presión de neumáticos"}
-    ]
+    ],
+    "imagen": "../imgAutos/fordMustang.webp"
   }
   

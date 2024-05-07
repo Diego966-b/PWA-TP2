@@ -16,6 +16,7 @@
         {"id": 1, "nombre": "Frenos antibloqueo (ABS)"},
         {"id": 2, "nombre": "Control de tracción dinámico"},
         {"id": 3, "nombre": "Asistente de estacionamiento"}
-    ]
+    ],
+    "imagen": "../imgAutos/bmwSerie3.jpg"
   }
   

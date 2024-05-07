@@ -5,7 +5,7 @@ const Busqueda = ({ onChangeHandler }) => {
         <TextField 
             id="filled-basic" 
             variant="filled" 
-            label="Busqueda por marca o modelo" 
+            label="Busqueda por marca y modelo" 
             className="text-white bg-white w-2/5 rounded-xl"
             onChange={onChangeHandler}
         />

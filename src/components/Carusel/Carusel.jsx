@@ -5,16 +5,16 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 const Carusel = () => (
     <Carousel autoPlay>
         <div style={{ maxWidth: "500px", margin: "0 auto" }}>
-            <img alt="" src="/imgcarousel/infoauto1.png" />
+            <img alt="imgCarusel1" src="/imgcarousel/infoauto1.png" />
         </div>
         <div style={{ maxWidth: "500px", margin: "0 auto" }}>
-            <img alt="" src="/imgcarousel/infoauto2.png" />
+            <img alt="imgCarusel2" src="/imgcarousel/infoauto2.png" />
         </div>
         <div style={{ maxWidth: "500px", margin: "0 auto" }}>
-            <img alt="" src="/imgcarousel/infoauto3.png" />
+            <img alt="imgCarusel3" src="/imgcarousel/infoauto3.png" />
         </div>
         <div style={{ maxWidth: "500px", margin: "0 auto" }}>
-            <img alt="" src="/imgcarousel/infoauto4.png" />
+            <img alt="imgCarusel4" src="/imgcarousel/infoauto4.png" />
         </div>
     </Carousel>
 );

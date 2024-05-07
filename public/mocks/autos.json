@@ -6,7 +6,8 @@
       "anio": 2022,
       "color": "Gris",
       "precio": 25000,
-      "transmision": "Automatica"
+      "transmision": "Automatica",
+      "portada": "../portadaAutos/toyotaCorolla.avif"
     },
     {
       "id": 2,
@@ -15,34 +16,38 @@
       "anio": 2023,
       "color": "Azul",
       "precio": 27000,
-      "transmision": "Manual"
+      "transmision": "Manual",
+      "portada": "../portadaAutos/hondaCivic.jpg"
     },
     {
       "id": 3,
       "marca": "Ford",
       "modelo": "Mustang",
       "anio": 2021,
-      "color": "Rojo",
+      "color": "Blanco",
       "precio": 40000,
-      "transmision": "Automatica"
+      "transmision": "Automatica",
+      "portada": "../portadaAutos/fordMustang.jpg"
     },
     {
       "id": 4,
       "marca": "Chevrolet",
       "modelo": "Camaro",
       "anio": 2020,
-      "color": "Negro",
+      "color": "Rojo",
       "precio": 38000,
-      "transmision": "Manual"
+      "transmision": "Manual",
+      "portada": "../portadaAutos/chevroletCamaro.jpg"
     },
     {
       "id": 5,
       "marca": "Volkswagen",
       "modelo": "Golf",
       "anio": 2022,
-      "color": "Blanco",
+      "color": "Azul",
       "precio": 23000,
-      "transmision": "Automatica"
+      "transmision": "Automatica",
+      "portada": "../portadaAutos/volkswagenGolf.jpg"
     },
     {
       "id": 6,
@@ -51,6 +56,7 @@
       "anio": 2023,
       "color": "Plata",
       "precio": 45000,
-      "transmision": "Automatica"
+      "transmision": "Automatica",
+      "portada": "../portadaAutos/bmwSerie3.jpeg"
     }
 ]

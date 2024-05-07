@@ -1,4 +1,4 @@
 export const ROUTES = {
-    home: "/",
-    detalles: "/detalles",
+  home: "/",
+  detalles: "/detalles/:idAuto",
 };

@@ -3,7 +3,7 @@
     "marca": "Volkswagen",
     "modelo": "Golf",
     "anio": 2022,
-    "color": "Blanco",
+    "color": "Azul",
     "precio": 23000,
     "transmision": "Automatica",
     "motor": "1.4L Turbocharged Inline-4",
@@ -16,6 +16,7 @@
         {"id": 1, "nombre": "Frenos de disco en las cuatro ruedas"},
         {"id": 2, "nombre": "Control de tracción electrónico"},
         {"id": 3, "nombre": "Sistema de asistencia de frenado"}
-    ]
+    ],
+    "imagen": "../imgAutos/volkswagenGolf.jpeg"
   }
   
