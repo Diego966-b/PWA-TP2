@@ -4,14 +4,14 @@ import Home from "../../pages/Home/Home.jsx";
 import Detalles from "../../pages/Detalles/Detalles.jsx";
 
 const Router = createBrowserRouter([
-   {
-      path: ROUTES.home,
-      element: <Home />,
-   },
-   {
-      path: ROUTES.detalles,
-      element: <Detalles />,
-   },
+  {
+    path: ROUTES.home,
+    element: <Home />,
+  },
+  {
+    path: ROUTES.detalles,
+    element: <Detalles />,
+  },
 ]);
 
 export { Router };

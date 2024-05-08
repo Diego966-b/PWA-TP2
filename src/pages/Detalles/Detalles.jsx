@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import Cabecera from "../../components/Cabecera/Cabecera";
 import AutoDetallado from "../../components/AutoDetallado/AutoDetallado";
 import Pie from "../../components/Pie/Pie.jsx";
+import GenerarPdf from "../../components/GenerarPdf/GenerarPdf.jsx";
 
 const Detalles = () => {
   const [auto, setAuto] = useState([]);
@@ -23,7 +24,7 @@ const Detalles = () => {
     <div className="w-full min-h-screen">
       <Cabecera />
       <AutoDetallado auto={auto} />
-      {/* aca paso el id del auto, luego voy a un comp. para transformar a pdf y muestro boton descarga */}
+      <GenerarPdf auto={auto} />
       <Pie />
     </div>
   );

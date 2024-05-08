@@ -1,48 +1,46 @@
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import Atropos from "atropos/react";
-import 'atropos/css';
+import "atropos/css";
 
-const ListarAutos = ({colAutos, textoBusqueda}) => {
-  const resultado = filtrar({colAutos, textoBusqueda});
+const ListarAutos = ({ colAutos, textoBusqueda }) => {
+  const resultado = filtrar({ colAutos, textoBusqueda });
   return (
-      <div
-          className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4 justify-items-center">
-        {resultado.length === 0 ? (
-            <p>No se encontraron elementos para su búsqueda</p>
-        ) : (
-            <>
-              {resultado.map((auto) => {
-                return (
-                    <div key={auto.id} className="mb-4 place-content-center">
-                      <Link to={`/detalles/${auto.id}`}>
-                        <Atropos>
-                          <div className="w-72 bg-cream border border-gray-300 rounded-lg shadow-md p-4">
-                            <img src={auto.portada} alt="Imagen del auto"
-                                 className="w-full h-36 object-cover rounded-t-lg mb-4"/>
-                            <div className="text-center text-black">
-                              <p className="font-bold">{auto.marca}</p>
-                              <p className="text-sm">{auto.modelo}</p>
-                              <p>{auto.anio}</p>
-                              <p>{auto.color}</p>
-                              <p>{auto.precio}</p>
-                              <p>{auto.transmision}</p>
-                            </div>
-                          </div>
-                        </Atropos>
-                      </Link>
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4 justify-items-center">
+      {resultado.length === 0 ? (
+        <p>No se encontraron elementos para su búsqueda</p>
+      ) : (
+        <>
+          {resultado.map((auto) => {
+            return (
+              <div key={auto.id} className="mb-4 place-content-center">
+                <Link to={`/detalles/${auto.id}`}>
+                  <Atropos>
+                    <div className="w-72 bg-cream border border-gray-300 rounded-lg shadow-md p-4">
+                      <img src={auto.portada} alt="Imagen del auto" className="w-full h-36 object-cover rounded-t-lg mb-4" />
+                      <div className="text-center text-black">
+                        <p className="font-bold">{auto.marca}</p>
+                        <p className="text-sm">{auto.modelo}</p>
+                        <p>{auto.anio}</p>
+                        <p>{auto.color}</p>
+                        <p>{auto.precio}</p>
+                        <p>{auto.transmision}</p>
+                      </div>
                     </div>
-                );
-              })}
-            </>
-        )}
-      </div>
+                  </Atropos>
+                </Link>
+              </div>
+            );
+          })}
+        </>
+      )}
+    </div>
   );
 };
 
 /**
  * Filtra los resultados de la busqueda
  */
-function filtrar({colAutos, textoBusqueda}) {
+function filtrar({ colAutos, textoBusqueda }) {
   const textoSinEspacios = textoBusqueda.trim();
   // Si no hay texto, muestro todo
   if (textoSinEspacios === "") {
