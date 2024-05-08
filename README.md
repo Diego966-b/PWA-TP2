@@ -12,11 +12,12 @@ desarrollo web, en la facultad nacional del comahue (UNCO).
 
 ## Home
 
-AGREGAR CAPTURA DE HOME
+![Captura de home 1](./src/assets/home1.jpg)
+![Captura de home 2](./src/assets/home2.jpg)
 
 ## Página de detalles
 
-AGREGAR CAPTURA DE DETALLES
+![Captura de detalles](./src/assets/detalles1.jpg)
 
 ## Instalación
 1. Instala Node.js

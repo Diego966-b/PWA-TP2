@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import Cabecera from "../../components/Cabecera/Cabecera";
-import AutoDetallado from "../../components/AutoDetallado/AutoDetallado";
+import Cabecera from "../../components/Cabecera/Cabecera.jsx";
+import AutoDetallado from "../../components/AutoDetallado/AutoDetallado.jsx";
 import Pie from "../../components/Pie/Pie.jsx";
 import GenerarPdf from "../../components/GenerarPdf/GenerarPdf.jsx";
 

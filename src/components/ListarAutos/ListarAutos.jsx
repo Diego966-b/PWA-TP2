@@ -5,11 +5,11 @@ import "atropos/css";
 const ListarAutos = ({ colAutos, textoBusqueda }) => {
   const resultado = filtrar({ colAutos, textoBusqueda });
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4 justify-items-center">
+    <>
       {resultado.length === 0 ? (
         <p>No se encontraron elementos para su búsqueda</p>
       ) : (
-        <>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4 justify-items-center">
           {resultado.map((auto) => {
             return (
               <div key={auto.id} className="mb-4 place-content-center">
@@ -31,9 +31,9 @@ const ListarAutos = ({ colAutos, textoBusqueda }) => {
               </div>
             );
           })}
-        </>
+        </div>
       )}
-    </div>
+    </>
   );
 };
 

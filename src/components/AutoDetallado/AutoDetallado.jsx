@@ -63,7 +63,7 @@ const AutoDetallado = ({ auto }) => {
             <ul className="list-disc list-inside mb-2">
               {auto.sistemaSeguridad.map((sistema) => {
                 return (
-                  <li className="mb-4 ml-9" key={sistema.id}>
+                  <li className="flex-1 font-semibold text-3xl mb-4 ml-9" key={sistema.id}>
                     {sistema.nombre}
                   </li>
                 );

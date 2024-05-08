@@ -40,7 +40,7 @@ const Home = () => {
       <div className="m-5">
         <Busqueda onChangeHandler={onChangeHandlerValueBusqueda} />
       </div>
-      <div className="w-full min-h-screen">
+      <div className="w-full">
         <ListarAutos colAutos={colAutos} textoBusqueda={valueBusqueda} />
       </div>
       <Pie />
