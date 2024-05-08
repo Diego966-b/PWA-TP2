@@ -20,9 +20,9 @@ const ListarAutos = ({ colAutos, textoBusqueda }) => {
                       <div className="text-center text-black">
                         <p className="font-bold">{auto.marca}</p>
                         <p className="text-sm">{auto.modelo}</p>
-                        <p>{auto.anio}</p>
-                        <p>{auto.color}</p>
-                        <p>{auto.precio}</p>
+                        <p>Año {auto.anio}</p>
+                        <p>Color {auto.color}</p>
+                        <p>$ {auto.precio}</p>
                         <p>{auto.transmision}</p>
                       </div>
                     </div>
