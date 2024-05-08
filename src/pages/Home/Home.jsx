@@ -31,22 +31,23 @@ const Home = () => {
   return (
     <div className="w-full min-h-screen">
       <Cabecera />
-      <div className="">
-        <div className="flex-1 p-4">
-          <Carusel />
+        <div>
+            <div className="flex-1 p-4">
+                <h1 className="font-bold">Bienvenidos!</h1>
+                <p className="font-semibold">¡Bienvenido a WIKA, tu fuente confiable de información sobre automóviles!
+                    Esperamos poder satisfacer tu curiosidad.</p>
+            </div>
+            <div className="flex-1 p-4">
+                <Carusel/>
+            </div>
         </div>
-        <div className="flex-1 p-4">
-          <h1 className="font-bold">Bienvenidos!</h1>
-          <p className="font-semibold">¡Bienvenido a WIKA, tu fuente confiable de información sobre automóviles! Esperamos poder satisfacer tu curiosidad.</p>
+        <div className="m-5">
+            <Busqueda onChangeHandler={onChangeHandlerValueBusqueda}/>
         </div>
-      </div>
-      <div className="m-5">
-        <Busqueda onChangeHandler={onChangeHandlerValueBusqueda} />
-      </div>
-      <div className="w-full min-h-screen">
-        <ListarAutos colAutos={colAutos} textoBusqueda={valueBusqueda} />
-      </div>
-      <Pie />
+        <div className="w-full min-h-screen">
+            <ListarAutos colAutos={colAutos} textoBusqueda={valueBusqueda}/>
+        </div>
+        <Pie/>
     </div>
   );
 };
